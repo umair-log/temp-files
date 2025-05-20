@@ -46,7 +46,7 @@ export default function BlogpostUnexplainedInfertility(props) {
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="d-flex align-items-center">
                                 <img src="/img/pink-line-smallest.webp" />
-                                <p className="date mb-0">{new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+                                <p className="date mb-0">May 21, 2025</p>
                             </div>
                             <p className="tym-to-read mb-0">7 min read</p>
                             <div className="d-flex justify-content-between mobile-view-blogpost">

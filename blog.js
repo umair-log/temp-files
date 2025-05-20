@@ -33,8 +33,9 @@ export default function Blog(props) {
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossOrigin="anonymous"></Script>
       <div className="container hero-head">
         <div className="row">
+          
           <div className="col-lg-3 col-10 hero-blank-head">
-            <img src="/img/blogpost-7/hero-image.jpg" alt="" className="blog-hero-img" />
+            <img src="img/blogpost-unexplained/hero-image.png" alt="" className="blog-hero-img" />
           </div>
           <div className="col-lg-9 col-12 hero-pink-head">
             <div className="row">
@@ -42,11 +43,11 @@ export default function Blog(props) {
               <div className="col-lg-8 col-10 hero-content-head">
                 <div className="d-flex align-items-center">
                   <img src="/img/white-line.webp" className="white-line mb-2" />
-                  <p className="hero-head-date ms-3">January 25, 2024</p>
+                  <p className="hero-head-date ms-3">May 21, 2025</p>
                 </div>
-                <h1 className="hero-big-head">5 Important Fertility Factors and How You Can Actually Improve Them</h1>
+                <h1 className="hero-big-head">Unexplained Infertility — Why It's More Common Than You Think | Fertility Avenues</h1>
                 <p className="hero-small-head mt-4 mb-3"></p>
-                <Link href="/imp-fertility-factors"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
+                <Link href="/Unexplained-Infertility"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
               </div>
             </div>
           </div>
@@ -55,20 +56,20 @@ export default function Blog(props) {
       <div className="container p-0">      
         <div className="row mt-md-5 m-0 p-0">
 
-          <div className="col-lg-4 col-10 article-col">
+          {/* <div className="col-lg-4 col-10 article-col">
             <Link href="/pcos-and-pregnancy"><a><img src="img/blogpost-pcos/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
             <div className="d-flex align-items-center mt-3">
               <img src="/img/pink-line-smallest.webp" alt="" className="pink-line-smallest" />
               <p className="date mb-0">May 05, 2025</p>
             </div>
             <p className="lorem-ipsum-dolor-si2">PCOS and Pregnancy — A Holistic Path When Nothing Else Works</p>
-          </div> 
+          </div>  */}
 
            <div className="col-lg-4 col-10 article-col">
             <Link href="/Unexplained-Infertility"><a><img src="img/blogpost-unexplained/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
             <div className="d-flex align-items-center mt-3">
               <img src="/img/pink-line-smallest.webp" alt="" className="pink-line-smallest" />
-              <p className="date mb-0">May 05, 2025</p>
+              <p className="date mb-0">May 21, 2025</p>
             </div>
             <p className="lorem-ipsum-dolor-si2">Unexplained Infertility — Why It's More Common Than You Think | Fertility Avenues</p>
           </div>     
