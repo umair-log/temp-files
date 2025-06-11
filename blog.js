@@ -35,7 +35,7 @@ export default function Blog(props) {
         <div className="row">
           
           <div className="col-lg-3 col-10 hero-blank-head">
-            <img src="/img/blogpost-ovulation/hero-image.png" alt="" className="blog-hero-img" />
+            <img src="/img/blogpost-emotional/hero-image.png" alt="" className="blog-hero-img" />
           </div>
           <div className="col-lg-9 col-12 hero-pink-head">
             <div className="row">
@@ -43,11 +43,11 @@ export default function Blog(props) {
               <div className="col-lg-8 col-10 hero-content-head">
                 <div className="d-flex align-items-center">
                   <img src="/img/pink-line-smallest.webp" className="white-line mb-2" />
-                  <p className="hero-head-date ms-3">June 04, 2025</p>
+                  <p className="hero-head-date ms-3">June 12, 2025</p>
                 </div>
-                <h1 className="hero-big-head">Why You're Not Ovulating — And What You Can Do About It</h1>
+                <h1 className="hero-big-head">The Emotional Weight of Infertility — And How to Lighten the Load</h1>
                 <p className="hero-small-head mt-4 mb-3"></p>
-                <Link href="/Why-Youre-Not-Ovulating"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
+                <Link href="/Emotional-Weight-of-Infertility"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
               </div>
             </div>
           </div>
@@ -58,6 +58,15 @@ export default function Blog(props) {
 
 
         <div className="col-lg-4 col-10 article-col">
+            <Link href="/Emotional-Weight-of-Infertility"><a><img src="/img/blogpost-emotional/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
+            <div className="d-flex align-items-center mt-3">
+              <img src="/img/pink-line-smallest.webp" alt="" className="pink-line-smallest" />
+              <p className="date mb-0">June 12, 2025</p>
+            </div>
+            <p className="lorem-ipsum-dolor-si2">The Emotional Weight of Infertility — And How to Lighten the Load</p>
+          </div> 
+
+          <div className="col-lg-4 col-10 article-col">
             <Link href="/Why-Youre-Not-Ovulating"><a><img src="/img/blogpost-ovulation/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
             <div className="d-flex align-items-center mt-3">
               <img src="/img/pink-line-smallest.webp" alt="" className="pink-line-smallest" />
@@ -159,4 +168,3 @@ export default function Blog(props) {
     </>
   )
 }
-
