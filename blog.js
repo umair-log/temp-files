@@ -35,7 +35,7 @@ export default function Blog(props) {
         <div className="row">
           
           <div className="col-lg-3 col-10 hero-blank-head">
-            <img src="/img/blogpost-one-tube/hero-image.png" alt="" className="blog-hero-img" />
+            <img src="/img/blogpost-tried-everything/hero-image.png" alt="" className="blog-hero-img" />
           </div>
           <div className="col-lg-9 col-12 hero-pink-head">
             <div className="row">
@@ -43,11 +43,11 @@ export default function Blog(props) {
               <div className="col-lg-8 col-10 hero-content-head">
                 <div className="d-flex align-items-center">
                   <img src="/img/pink-line-smallest.webp" className="white-line mb-2" />
-                  <p className="hero-head-date ms-3">June 20, 2025</p>
+                  <p className="hero-head-date ms-3">June 26, 2025</p>
                 </div>
-                <h1 className="hero-big-head">Can You Get Pregnant with Just One Tube? Here’s What You Need to Know</h1>
+                <h1 className="hero-big-head">When You’ve Tried Everything — But Still No Baby</h1>
                 <p className="hero-small-head mt-4 mb-3"></p>
-                <Link href="/Pregnant-with-Just-One-Tube"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
+                <Link href="/Tried-Everything"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
               </div>
             </div>
           </div>
@@ -55,6 +55,15 @@ export default function Blog(props) {
       </div>
       <div className="container p-0">      
         <div className="row mt-md-5 m-0 p-0">
+
+        <div className="col-lg-4 col-10 article-col">
+            <Link href="/Tried-Everything"><a><img src="/img/blogpost-tried-everything/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
+            <div className="d-flex align-items-center mt-3">
+              <img src="/img/pink-line-smallest.webp" alt="" className="pink-line-smallest" />
+              <p className="date mb-0">June 26, 2025</p>
+            </div>
+            <p className="lorem-ipsum-dolor-si2">When You’ve Tried Everything — But Still No Baby</p>
+          </div> 
 
         <div className="col-lg-4 col-10 article-col">
             <Link href="/Pregnant-with-Just-One-Tube"><a><img src="/img/blogpost-one-tube/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
