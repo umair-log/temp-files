@@ -134,7 +134,7 @@ export default function BlogpostTriedEverything(props) {
                             <p className="para-blog-single-page">This post is for the woman who’s done everything she was told to do, and is still left holding an empty womb and a heavy heart.</p>
                         </li>
                         <li className="number-heading my-2" style={{ listStyle: 'None' }} id="when-nothing-working">When Nothing’s Working… What’s Really Going On?
-                            <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/what-is-going-on.png" alt="Woman looking confused and frustrated, surrounded by question marks" />
+                            {/* <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/what-is-going-on.png" alt="Woman looking confused and frustrated, surrounded by question marks" /> */}
                             <p className="para-blog-single-page">Sometimes, when you’ve tried everything and still aren’t seeing results, it’s not because you haven’t done enough. It’s because the approach wasn’t aligned with what your body actually needs.</p>
                             <p className="para-blog-single-page">Here’s what we’ve seen in women like Rebecca, Stacey, and Krish:</p>
                             <ul className="para-blog-single-page">
@@ -150,7 +150,7 @@ export default function BlogpostTriedEverything(props) {
                             <p className="para-blog-single-page">When you've hit a wall in your fertility journey, it's time to pause and look beneath the surface. Here are five crucial areas to revisit:</p>
                             
                             <div className="number-heading my-2" style={{ listStyle: 'None' }} id="nervous-system">1. Your Nervous System
-                                <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/nervous-system.png" alt="Calm woman meditating, symbolizing nervous system regulation" />
+                                {/* <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/nervous-system.png" alt="Calm woman meditating, symbolizing nervous system regulation" /> */}
                                 <p className="para-blog-single-page">Your body won’t allow pregnancy if it doesn’t feel safe. If stress, trauma, or burnout are chronically present, fertility takes a back seat.</p>
                                 <p className="para-blog-single-page">What helps:</p>
                                 <ul className="para-blog-single-page">
@@ -194,7 +194,7 @@ export default function BlogpostTriedEverything(props) {
                             </div>
                             
                             <div className="number-heading my-2" style={{ listStyle: 'None' }} id="connection-intimacy">5. Connection and Intimacy
-                                <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/connection-intimacy.png" alt="Couple holding hands and connecting emotionally" />
+                                {/* <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/connection-intimacy.png" alt="Couple holding hands and connecting emotionally" /> */}
                                 <p className="para-blog-single-page">For couples, fertility struggles can create distance, pressure, or even emotional disconnection. Sometimes the relationship dynamic itself is quietly impacting conception.</p>
                                 <p className="para-blog-single-page">What helps:</p>
                                 <ul className="para-blog-single-page">
@@ -206,14 +206,14 @@ export default function BlogpostTriedEverything(props) {
                         </div>
                         
                         <div className="number-heading my-2" style={{ listStyle: 'None' }} id="real-story-stacey">Real Story: Stacey
-                            <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/stacey-story.png" alt="Happy pregnant woman smiling, symbolizing hope and success" />
+                            {/* <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/stacey-story.png" alt="Happy pregnant woman smiling, symbolizing hope and success" /> */}
                             <p className="para-blog-single-page">Stacey had been trying for 11 years. 3 rounds of IVF. Multiple losses. Doctors told her there was no hope.</p>
                             <p className="para-blog-single-page">She started working with us not to “fix” herself—but to reclaim her peace. With a shift in mindset, nourishment, spiritual support, and full-body healing, she conceived naturally within 6 months.</p>
                             <p className="para-blog-single-page">Her story isn’t rare—it’s just rarely told.</p>
                         </div>
                         
                         <div className="number-heading my-2" style={{ listStyle: 'None' }} id="what-you-can-do-now">What You Can Do Now
-                            <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/what-to-do-now.png" alt="Woman taking a deep breath, surrounded by calming elements" />
+                            {/* <img className="img-fluid my-2 w-100" src="/img/blogpost-tried-everything/what-to-do-now.png" alt="Woman taking a deep breath, surrounded by calming elements" /> */}
                             <p className="para-blog-single-page">If you feel like you’ve tried it all:</p>
                             <ul className="para-blog-single-page">
                                 <li>Take a deep breath and pause the pressure</li>
@@ -227,7 +227,7 @@ export default function BlogpostTriedEverything(props) {
                             <p className="para-blog-single-page">Trying everything can leave you exhausted and disoriented. But this doesn’t have to be the end of your journey.</p>
                             <p className="para-blog-single-page">Sometimes, the most powerful shift happens not by doing more—but by doing differently.</p>
                             <p className="para-blog-single-page">📞 If you’re ready to take a deeper, more aligned step toward pregnancy, book a free fertility consultation today.</p>
-                            <p className="para-blog-single-page">💛 <Link href="/freeconsult"><a>[Schedule your session here]</a></Link></p>
+                            {/* <p className="para-blog-single-page">💛 <Link href="/freeconsult"><a>[Schedule your session here]</a></Link></p> */}
                         </div>
                     </div>
                     <div className="col-lg-4 get-free-consultation-blogpost-div text-center is-sticky">
