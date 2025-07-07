@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaYoutubeSquare } from 'react-icons/fa';
 
-export default function BlogpostTriedEverything(props) {
+export default function TriedEverything(props) {
     const pageRedirect = () => {
         window.location.href = './freeconsult'
     }
