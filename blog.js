@@ -30,12 +30,13 @@ export default function Blog(props) {
           <img height="1" width="1" src="https://www.facebook.com/tr?id=722676669519092&ev=PageView&noscript=1" />
         </noscript>
       </Head>
+      
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossOrigin="anonymous"></Script>
       <div className="container hero-head">
         <div className="row">
           
           <div className="col-lg-3 col-10 hero-blank-head">
-            <img src="/img/blogpost-tried-everything/hero-image.png" alt="" className="blog-hero-img" />
+            <img src="/img/blogpost-emotional-roots/hero-image.png" alt="" className="blog-hero-img" />
           </div>
           <div className="col-lg-9 col-12 hero-pink-head">
             <div className="row">
@@ -43,11 +44,11 @@ export default function Blog(props) {
               <div className="col-lg-8 col-10 hero-content-head">
                 <div className="d-flex align-items-center">
                   <img src="/img/pink-line-smallest.webp" className="white-line mb-2" />
-                  <p className="hero-head-date ms-3">June 26, 2025</p>
+                  <p className="hero-head-date ms-3">July 9, 2025</p>
                 </div>
-                <h1 className="hero-big-head">When You’ve Tried Everything — But Still No Baby</h1>
+                <h1 className="hero-big-head">How Trauma, Anxiety, and Grief Show Up in Your Fertility</h1>
                 <p className="hero-small-head mt-4 mb-3"></p>
-                <Link href="/Tried-Everything"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
+                <Link href="/Trauma-Anxiety-Grief/"><button className="btn read-article shadow-none float-end rounded-0 mt-lg-4">READ ARTICLE</button></Link>
               </div>
             </div>
           </div>
@@ -55,6 +56,17 @@ export default function Blog(props) {
       </div>
       <div className="container p-0">      
         <div className="row mt-md-5 m-0 p-0">
+
+        <div className="col-lg-4 col-10 article-col">
+            <Link href="/Trauma-Anxiety-Grief"><a><img src="/img/blogpost-emotional-roots/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
+            <div className="d-flex align-items-center m/img/blogpost-emotional-roots/hero-image.pngt-3">
+              <img src="/img/pink-line-smallest.webp" alt="" className="pink-line-smallest" />
+              <p className="white"> .</p>
+              <p className="date mb-0">July 9, 2025</p>
+
+            </div>
+            <p className="lorem-ipsum-dolor-si2">How Trauma, Anxiety, and Grief Show Up in Your Fertility</p>
+          </div> 
 
         <div className="col-lg-4 col-10 article-col">
             <Link href="/Tried-Everything"><a><img src="/img/blogpost-tried-everything/hero-image.png" alt="" className="w-100 img-fluid" /></a></Link>
